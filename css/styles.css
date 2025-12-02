@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+p {
+    color: #555;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container2 {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.termek-container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-5 {
+    flex-basis: 100%;
+    line-height: 16.5pt;
+
+}
+
+.col-5 img {
+    flex-basis: 50%;
+    padding: 25px 0;
+    float: right;
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+
+.col-4 img {
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+.btn-oldal {
+
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.header {
+    background: radial-gradient(#fff, #326163d5);
+}
+
+
+.kategoriak {
+    margin: 70px 0;
+
+}
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 30px;
+    margin-bottom: 30px;
+}
+
+.col-3 img {
+    width: 100%;
+}
+
+.small-container {
+    margin: auto;
+    max-width: 1080px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.col-6 {
+    flex-basis: 20%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-6 img {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.col-6 p {
+    font-size: 12px;
+}
+
+.col-6:hover {
+    transform: translateY(-5px);
+}
+
+.card {
+    width: 301;
+    height: 600px;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.table {
+    table-layout: auto;
+    border: #1b1b1b;
+}
+
+.table td {
+    background-color: wheat;
+    color: rgb(0, 0, 0);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-distributed {
+    background: radial-gradient(#c7cfca, #326163d5);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 33px;
+    position: absolute;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    text-align: left;
+}
+
+.footer-center {
+    margin-left: 50px;
+    color: #555;
+}
+
+.footer-right {
+    float: right;
+    width: 30%;
+}
+
+.footer-right img {
+    margin: auto;
+    display: block;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+.felsorolas li {
+    list-style-type: square;
+}
+
+.h5 {
+    font-weight: bold;
+    color: #555;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 170%;
+    text-align: center;
+}
+
+.leiras {
+    font-weight: bold;
+    color: darkcyan;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.kartya {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    display: inline-block;
+    width: 200px;
+    transition: transform 0.2s;
+}
+
+.kartya:hover {
+    transform: scale(1.05);
+}
+
+.kartya img {
+    border-radius: 60%;
+    width: 150px;
+    height: 150px;
+}
+
+.kartya h2 {
+    margin: 10px 0 5px;
+}
+
+.kartya p {
+    margin: 5px 0;
+    color: #555;
+}
